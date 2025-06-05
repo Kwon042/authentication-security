@@ -22,5 +22,9 @@ public class AuthViewController {
         return "login";
     }
 
+    @GetMapping("/login_success_form")
+    public String loginSuccess() {
+        return "login_success_form"; 
+    }
 
 }
